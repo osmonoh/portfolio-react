@@ -9,9 +9,11 @@ import Footer from "./components/Footer";
 import Contact from "./pages/Contact";
 import CV from "./pages/CV";
 
+import "./style/App.scss";
+
 const App = () => {
   return (
-    <div>
+    <div className="App container">
       <BrowserRouter>
         <Navbar />
 
