@@ -1,0 +1,132 @@
+.hero {
+  padding: 3.2rem;
+
+  &-content {
+    max-width: 600px;
+    margin: 0 auto;
+
+    .hero-text {
+      margin-bottom: 4.8rem;
+
+      @media (max-width: 630px) {
+        text-align: center;
+      }
+
+      .heading {
+        width: fit-content;
+        margin-bottom: 1.6rem;
+        animation: heading-animation 8s;
+
+        @media (max-width: 630px) {
+          margin: 0 auto;
+        }
+
+        @keyframes heading-animation {
+          8% {
+            transform: translateY(0) scale(1);
+          }
+          9% {
+            transform: translateY(-10px) scale(1.4);
+          }
+          10% {
+            transform: translateY(-10px) scale(1.4) rotateZ(-10deg);
+          }
+          10.5% {
+            transform: rotateZ(10deg);
+          }
+          11% {
+            transform: rotateZ(-10deg);
+          }
+          11.5% {
+            transform: rotateZ(0);
+          }
+          15% {
+            transform: rotateZ(-10deg);
+          }
+          15.5% {
+            transform: rotateZ(10deg);
+          }
+          16% {
+            transform: rotateZ(-10deg);
+          }
+          16.5% {
+            transform: rotateZ(0);
+          }
+          20% {
+            transform: rotateZ(-10deg);
+          }
+          20.5% {
+            transform: rotateZ(10deg);
+          }
+          21% {
+            transform: rotateZ(-10deg);
+          }
+          21.5% {
+            transform: rotateZ(0);
+          }
+        }
+      }
+
+      .sub-heading {
+        margin-bottom: 1.6rem;
+      }
+
+      .hero-paragraph {
+        font-size: 2rem;
+      }
+    }
+
+    .buttons-box {
+      display: flex;
+      justify-content: center;
+      gap: 4rem;
+
+      @media (max-width: 630px) {
+        gap: 0.8rem;
+      }
+
+      .btn-hero {
+        box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+
+        border-radius: 50%;
+        width: 16rem;
+        height: 16rem;
+        // background-color: rebeccapurple;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 1.8rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        cursor: pointer;
+        opacity: 0.8;
+        transition: 0.3s;
+
+        @media (max-width: 630px) {
+          width: 26vw;
+          height: 26vw;
+        }
+
+        &:hover {
+          // opacity: 1;
+          // @include btn-animation(1.05);
+          font-size: 2.2rem;
+          transform: rotate(360deg);
+        }
+      }
+
+      .btn-resume {
+        background-color: rebeccapurple;
+      }
+
+      .btn-projects {
+        background-color: $persian-blue;
+      }
+
+      .btn-contact {
+        background-color: $ultramarine-blue;
+      }
+    }
+  }
+}

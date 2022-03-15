@@ -1,0 +1,141 @@
+.resume {
+  //   margin-bottom: 3.2rem;
+  padding: 16rem 3.2rem 12rem;
+
+  @media (max-width: 630px) {
+    padding: 8rem 3.2rem 8rem;
+    text-align: center;
+
+    ul {
+      text-align: left;
+      max-width: 450px;
+      margin: 0 auto;
+    }
+  }
+
+  &-top {
+    display: flex;
+    justify-content: space-between;
+
+    &-heading {
+      margin-bottom: 12rem;
+
+      @media (max-width: 630px) {
+        // margin: 0 auto;
+        // margin-bottom: 2.4rem;
+        display: none;
+      }
+    }
+
+    .btn-download {
+      width: 4.8rem;
+      height: 4.8rem;
+      border-radius: 50%;
+      background-color: $ultramarine-blue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      opacity: 0.7;
+
+      @media (max-width: 630px) {
+        margin-left: auto;
+      }
+
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+
+  .section {
+    border-top: 1px solid #c7c7c7;
+    padding-top: 4rem;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    &-heading {
+      width: 42%;
+
+      @media (max-width: 1190px) {
+        width: 25%;
+      }
+
+      @media (max-width: 990px) {
+        width: 100%;
+        margin-bottom: 4.8rem;
+      }
+    }
+
+    &-articles {
+      width: 58%;
+
+      @media (max-width: 1200px) {
+        width: 75%;
+      }
+
+      @media (max-width: 990px) {
+        width: 100%;
+      }
+
+      .article {
+        margin-bottom: 8rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        // @media (max-width: 630px) {
+        //   width: 100%;
+        // }
+
+        .timespan {
+          width: 25%;
+
+          @media (max-width: 630px) {
+            width: 100%;
+            margin-bottom: 1.6rem;
+          }
+        }
+
+        .content {
+          width: 70%;
+
+          @media (max-width: 630px) {
+            width: 100%;
+          }
+
+          &-subheading {
+            margin-bottom: 1.6rem;
+            font-weight: 600;
+          }
+
+          &-points {
+            padding-left: 2.4rem;
+          }
+
+          .experience-statement {
+            margin-top: 3.2rem;
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+
+  .my-name {
+    border: none;
+
+    @media (max-width: 630px) {
+      padding-top: 0;
+
+      .section-heading {
+        display: none;
+      }
+    }
+
+    .article {
+      margin-bottom: 4rem;
+    }
+  }
+}
