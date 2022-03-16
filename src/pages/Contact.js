@@ -17,12 +17,16 @@ const Contact = () => {
           </a>
         </div>
         <div className="endpoint ghub">
-          <a href="https://github.com/osmonoh" target="_blank">
+          <a href="https://github.com/osmonoh" target="_blank" rel="noreferrer">
             <i className="fa fa-github fa-4x" aria-hidden="true"></i>
           </a>
         </div>
         <div className="endpoint linked">
-          <a href="https://www.linkedin.com/in/dusan-chmelko/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/dusan-chmelko/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="fa fa-linkedin fa-4x linkedin" aria-hidden="true"></i>
           </a>
         </div>

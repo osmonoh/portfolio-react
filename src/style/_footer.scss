@@ -20,7 +20,7 @@
 
       &:hover {
         // @include linkedin-animation(1.3);
-
+        color: $dodger-blue;
         animation: in-bounce 4s infinite;
 
         @keyframes in-bounce {

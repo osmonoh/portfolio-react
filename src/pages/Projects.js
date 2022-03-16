@@ -33,6 +33,7 @@ const Projects = () => {
                 className="btn-project btn-code"
                 href="https://github.com/osmonoh/react-video-platform"
                 target="_blank"
+                rel="noreferrer"
                 title="See code on GitHub"
               >
                 <p>code</p>
@@ -42,6 +43,7 @@ const Projects = () => {
               <a
                 href="https://watch-video-app.netlify.app/"
                 target="_blank"
+                rel="noreferrer"
                 title="Go to website"
               >
                 <img src={watchImg} alt="video platform" />
@@ -68,6 +70,7 @@ const Projects = () => {
                 className="btn-project btn-code"
                 href="https://github.com/osmonoh/rest-api"
                 target="_blank"
+                rel="noreferrer"
                 title="See code on GitHub"
               >
                 <p>code</p>
@@ -77,6 +80,7 @@ const Projects = () => {
               <a
                 href="https://decentapi.herokuapp.com/"
                 target="_blank"
+                rel="noreferrer"
                 title="Go to website"
               >
                 <img src={decentImg} alt="rest api" />
@@ -104,6 +108,7 @@ const Projects = () => {
                 className="btn-project btn-code"
                 href="https://github.com/osmonoh/bulls-and-cows"
                 target="_blank"
+                rel="noreferrer"
                 title="See code on GitHub"
               >
                 <p>code</p>
@@ -113,6 +118,7 @@ const Projects = () => {
               <a
                 href="https://bulls-cows.netlify.app/"
                 target="_blank"
+                rel="noreferrer"
                 title="Go to website"
               >
                 <img src={gameImg} alt="logic game" />
@@ -155,6 +161,7 @@ const Projects = () => {
                 className="btn-project btn-code"
                 href="https://github.com/osmonoh/pawfect-frontend"
                 target="_blank"
+                rel="noreferrer"
                 title="See code on GitHub"
               >
                 <p>code</p>
@@ -164,6 +171,7 @@ const Projects = () => {
               <a
                 href="https://pawfect.netlify.app/"
                 target="_blank"
+                rel="noreferrer"
                 title="Go to website"
               >
                 <img src={pawfectImg} alt="pet adoption site" />
