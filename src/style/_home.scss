@@ -15,7 +15,7 @@
       .heading {
         width: fit-content;
         margin-bottom: 1.6rem;
-        color: $purple-darker;
+        // color: $purple-darker;
         animation: heading-animation 8s;
 
         @media (max-width: 630px) {
@@ -72,7 +72,7 @@
         margin-bottom: 1.6rem;
 
         span {
-          color: $byzantine;
+          // color: $byzantine;
         }
       }
 
