@@ -21,7 +21,11 @@
   }
 
   .project {
-    margin-bottom: 24rem;
+    border-top: 1px solid #c7c7c7;
+    padding-top: 8rem;
+    // margin-bottom: 24rem;
+    margin-bottom: 9.6rem;
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -74,6 +78,7 @@
 
       &-keywords {
         font-weight: 600;
+        margin-bottom: 2.4rem;
       }
     }
 
