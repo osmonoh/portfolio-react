@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import myLogo from "../images/dc_moon_down.png";
+import myLogo from "../images/dc_circle_dark.png";
+// import myLogo from "../images/dc_moon_down.png";
 
 const Navbar = () => {
   return (
@@ -12,9 +13,10 @@ const Navbar = () => {
             <i className="fa fa-code fa-lg" aria-hidden="true"></i> 
             &lt;&#47;&gt;
           </div> */}
-          <div className="myLogo">
+          {/* <div className="myLogo">
             <img src={myLogo} alt="logo" />
-          </div>
+          </div> */}
+          <div className="newLogo">DC</div>
         </Link>
         {/* <Link to="/">
           <div className="name">

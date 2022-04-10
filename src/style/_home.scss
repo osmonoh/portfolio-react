@@ -1,6 +1,18 @@
 .hero {
   padding: 3.2rem;
 
+  opacity: 0;
+  animation: hero-appear 1s 1s forwards;
+
+  @keyframes hero-appear {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
   &-content {
     max-width: 600px;
     margin: 0 auto;

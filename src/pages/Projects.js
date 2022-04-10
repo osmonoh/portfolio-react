@@ -21,11 +21,9 @@ const Projects = () => {
                     ))}
                   {item.text.map((el, i) => {
                     return (
-                      <div>
-                        <p className="project-text-proper" key={i}>
-                          {el}
-                        </p>
-                        <p className="project-text-keywords" key={i}>
+                      <div key={i}>
+                        <p className="project-text-proper">{el}</p>
+                        <p className="project-text-keywords">
                           {item.keyWords[i].join(", ")}
                         </p>
                       </div>
