@@ -12,7 +12,7 @@ const projects = [
     ],
     keyWords: [["React", "Context API", "Axios", "SASS", "Material UI"]],
     gitHubURL: "https://github.com/osmonoh/siba-shop",
-    siteURL: "https://siba-shop-app.netlify.app/",
+    siteURL: "https://siba-shop.netlify.app/",
     img: sibaImg,
   },
   {
