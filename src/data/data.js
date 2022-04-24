@@ -28,8 +28,8 @@ const projects = [
       ["React", "Context API", "Axios", "YouTube Data API", "Semantic UI"],
       ["Node.js", "Express.js", "MongoDB", "Mongoose", "MongoDB Atlas"],
     ],
-    gitHubURL: "https://github.com/osmonoh/react-video-platform",
-    siteURL: "https://watch-video-app.netlify.app/",
+    gitHubURL: "https://github.com/osmonoh/pawfect-frontend",
+    siteURL: "https://pawfect.netlify.app/",
     img: pawfectImg,
   },
   {
