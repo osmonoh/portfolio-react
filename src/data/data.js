@@ -25,7 +25,7 @@ const projects = [
       "The server is built with Node.js, using the Express.js. We used MongoDB and Mongoose for database, stored on MongoDB Atlas. The server is deployed on Heroku.",
     ],
     keyWords: [
-      ["React", "Context API", "Axios", "YouTube Data API", "Semantic UI"],
+      ["React", "Context API", "Axios", "SCSS" , "Material UI", "Formik", "Chat-Engine"],
       ["Node.js", "Express.js", "MongoDB", "Mongoose", "MongoDB Atlas"],
     ],
     gitHubURL: "https://github.com/osmonoh/pawfect-frontend",
