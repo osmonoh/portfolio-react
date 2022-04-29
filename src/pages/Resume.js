@@ -16,7 +16,7 @@ const Resume = () => {
           </a>
         </div>
         <div className="resume-content">
-          {/* section */}
+          {/* section my-name */}
           <section className="section my-name">
             <h4 className="section-heading">Name</h4>
             <div className="section-articles">
@@ -29,7 +29,7 @@ const Resume = () => {
             </div>
           </section>
 
-          {/* section */}
+          {/* section education */}
           <section className="section education">
             <h4 className="section-heading">Education</h4>
             <div className="section-articles">
@@ -82,14 +82,32 @@ const Resume = () => {
             </div>
           </section>
 
-          {/* section */}
+          {/* section experience */}
           <section className="section experience">
             <h4 className="section-heading">Work Experience</h4>
             <div className="section-articles">
               <article className="article">
+                <p className="timespan">January 2022 - April 2022</p>
+                <div className="content">
+                  <h5 className="content-heading">Web Developer - Intern</h5>
+                  <p className="content-subheading">TeckLink, Remote</p>
+                  <ul className="content-points">
+                    <li>
+                      Developing front-end for web applications, developing and
+                      implementing new features
+                    </li>
+                    <li>
+                      Liaising with graphic designers, ensuring cross-platform
+                      optimization and responsiveness of applications
+                    </li>
+                    <li>Translating Figma designs into code</li>
+                  </ul>
+                </div>
+              </article>
+              <article className="article">
                 <p className="timespan">November 2020 - September 2021</p>
                 <div className="content">
-                  <h5 className="content-heading">Tutor (Web Development)</h5>
+                  <h5 className="content-heading">Tutor - Web Development</h5>
                   <p className="content-subheading">
                     Digital Career Institute, Berlin
                   </p>
@@ -115,7 +133,7 @@ const Resume = () => {
             </div>
           </section>
 
-          {/* section */}
+          {/* section skills */}
           <section className="section skills">
             <h4 className="section-heading">Technical Skills</h4>
             <div className="section-articles">
@@ -128,6 +146,8 @@ const Resume = () => {
                     <li>Node.js, Express.js, EJS</li>
                     <li>MongoDB, Mongoose</li>
                     <li>Bootstrap, Semantic UI, Material UI</li>
+                    <li>Webpack, Babel, PostCSS</li>
+                    <li>Figma, Sketch, Trello</li>
                     <li>Git, GitHub, NPM</li>
                   </ul>
                 </div>

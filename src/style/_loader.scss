@@ -91,11 +91,10 @@
     transform: scale(1);
     opacity: 1;
     border-color: lime;
-    border-color: $bb;
+    border-color: $mm;
 
     box-shadow: 0 0 6px 1px lime, inset 0 0 6px 1px lime;
-    box-shadow: 0 0 6px 1px $box-shadow-color,
-      inset 0 0 6px 1px $box-shadow-color;
+    box-shadow: 0 0 6px 1px $nn, inset 0 0 6px 1px $nn;
   }
 }
 
@@ -118,9 +117,9 @@
     opacity: 1;
     color: hotpink;
     color: lime;
-    color: $bb;
-    text-shadow: 1px 1px 4px lime, -1px -1px 4px lime;
-    text-shadow: 1px 1px 4px $box-shadow-color, -1px -1px 4px $box-shadow-color;
+    color: $mm;
+    // text-shadow: 1px 1px 4px lime, -1px -1px 4px lime;
+    text-shadow: 1px 1px 4px $nn, -1px -1px 4px $nn;
   }
 }
 
