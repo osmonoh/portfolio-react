@@ -1,9 +1,11 @@
 .navbar {
   // border-bottom: 2px solid #c7c7c7;
-  border-bottom: 2px solid darkslategrey;
+  // border-bottom: 2px solid darkslategrey;
+  border-bottom: 1px solid $nn;
 
   // background-color: white;
   background-color: black;
+  background-color: $kk;
 
   display: flex;
   flex-wrap: wrap;
@@ -75,11 +77,15 @@
       width: 6rem;
       height: 6rem;
       border: 3px solid darkslategrey;
+      border: 3px solid $nn;
+
       border-radius: 50%;
       display: flex;
       justify-content: center;
       align-items: center;
       color: darkslategrey;
+      color: $nn;
+
       font-size: 2.8rem;
       font-weight: 600;
 
@@ -89,10 +95,14 @@
         0% {
           color: darkslategrey;
           border-color: darkslategrey;
+          color: $nn;
+          border-color: $nn;
         }
         100% {
           color: lime;
           border-color: lime;
+          color: $mm;
+          border-color: $mm;
         }
       }
     }
@@ -123,6 +133,7 @@
 
     &-link {
       padding: 1.2rem;
+      color: $mm;
       font-size: 1.8rem;
       font-weight: 400;
       opacity: 0.8;

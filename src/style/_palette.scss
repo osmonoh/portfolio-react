@@ -16,14 +16,27 @@ $dodger-blue: #4895ef;
 $vivid-sky-blue: #4cc9f0;
 
 // new colors
-// bcg #0b2942
-// bcg-color #043254
-//  color #d7dbe0
-// color(with opacity lowered) rgba(215, 219, 224, 0.6)
-// color(aqua) #05dcc8
-// bcg(aqua) #05dcc8
-// color(dark)  #051428
-// color(link) #007bff
-// bcg-color(dark) #051428
-// input bcg-color rgba(11,41,66,.8)
-// box-shadow(hover) 0 0 30px rgb(5 220 200 / 30%)
+// bcg
+$ll: #0b2942;
+// bcg-color
+$kk: #043254;
+//  color
+$mm: #d7dbe0;
+// color(with opacity lowered)
+$nn: rgba(215, 219, 224, 0.6);
+$uu: rgba(215, 219, 224, 0.3);
+
+// color(aqua)
+$bb: #05dcc8;
+// bcg(aqua)
+$jj: #05dcc8;
+// color(dark)
+$hh: #051428;
+// color(link)
+$gg: #007bff;
+// bcg-color(dark)
+$ff: #051428;
+// input bcg-color
+$rr: rgba(11, 41, 66, 0.8);
+// box-shadow(hover) 0 0 30px
+$box-shadow-color: rgb(5 220 200 / 30%);

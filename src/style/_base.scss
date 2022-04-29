@@ -11,8 +11,10 @@
 }
 
 body {
-  background-color: black;
+  background-color: $ll;
   color: $color-text;
+  color: $nn;
+
   font-family: $font-text;
   font-size: 1.6rem;
 }
@@ -25,6 +27,8 @@ h5,
 h6 {
   font-family: $font-heading;
   color: $color-heading;
+  color: $mm;
+
   font-weight: 600;
 }
 

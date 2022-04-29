@@ -11,6 +11,8 @@
 .page {
   min-height: 100vh;
   background-color: black;
+  background-color: $ll;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,6 +65,8 @@
     transform: scale(0);
     opacity: 0;
     border-color: darkslategrey;
+    border-color: $nn;
+
     box-shadow: none;
   }
 
@@ -70,6 +74,8 @@
     transform: scale(1);
     opacity: 1;
     border-color: darkslategrey;
+    border-color: $nn;
+
     box-shadow: none;
   }
 
@@ -77,13 +83,19 @@
     transform: scale(1);
     opacity: 1;
     border-color: darkslategrey;
+    border-color: $nn;
+
     box-shadow: none;
   }
   100% {
     transform: scale(1);
     opacity: 1;
     border-color: lime;
+    border-color: $bb;
+
     box-shadow: 0 0 6px 1px lime, inset 0 0 6px 1px lime;
+    box-shadow: 0 0 6px 1px $box-shadow-color,
+      inset 0 0 6px 1px $box-shadow-color;
   }
 }
 
@@ -91,12 +103,14 @@
   0% {
     opacity: 0;
     color: darkslategrey;
+    color: $nn;
     text-shadow: none;
   }
 
   66% {
     opacity: 1;
     color: darkslategrey;
+    color: $nn;
     text-shadow: none;
   }
 
@@ -104,7 +118,9 @@
     opacity: 1;
     color: hotpink;
     color: lime;
+    color: $bb;
     text-shadow: 1px 1px 4px lime, -1px -1px 4px lime;
+    text-shadow: 1px 1px 4px $box-shadow-color, -1px -1px 4px $box-shadow-color;
   }
 }
 
