@@ -1,19 +1,30 @@
-import watchImg from "../images/watch-home.png";
-import decentImg from "../images/decent-home.png";
-import gameImg from "../images/bulls.png";
-import pawfectImg from "../images/pawfect.png";
-import sibaImg from "../images/siba-shop.png";
+import watchImg from "../images/watch-home-r.png";
+import decentImg from "../images/decent-home-r.png";
+import gameImg from "../images/bulls-r.png";
+import pawfectImg from "../images/pawfect-r.png";
+import sibaImg from "../images/siba-shop-r.png";
+import miniImg from "../images/mini-shop-r.png";
 
 const projects = [
   {
-    name: "Online shop ",
+    name: "Clothes shop ",
     text: [
       "An e-commerce web app build with React and Material UI with a little touch of SCSS. Products can be browsed by categories or collections, further filtered by tags. They can be added to favourites and to the shopping bag, both of witch are made persistent. To fetch the data Axios is used, Context API for state management and react-router-dom for navigation. This project is deployed on Netlify.",
     ],
-    keyWords: [["React", "Context API", "Axios", "SASS", "Material UI"]],
+    keyWords: [["React", "Context API", "Axios", "SCSS", "Material UI"]],
     gitHubURL: "https://github.com/osmonoh/siba-shop",
     siteURL: "https://siba-shop.netlify.app/",
     img: sibaImg,
+  },
+  {
+    name: "Home decoration",
+    text: [
+      "A home decoration frontend project was build with React and SCSS. It consists of various pages including a fully functioning shop with its cart and wishlist. The carousels on the home and blog pages are built with react-slick library. Other used technologies include Context API for state management and react-router-dom for navigation. This project is deployed on Netlify.",
+    ],
+    keyWords: [["React", "Context API", "SCSS", "react-slick"]],
+    gitHubURL: "https://github.com/osmonoh/mini-shop",
+    siteURL: "https://mini-deco-shop.netlify.app/",
+    img: miniImg,
   },
   {
     name: "Pet adoption platform",
@@ -25,7 +36,15 @@ const projects = [
       "The server is built with Node.js, using the Express.js. We used MongoDB and Mongoose for database, stored on MongoDB Atlas. The server is deployed on Heroku.",
     ],
     keyWords: [
-      ["React", "Context API", "Axios", "SCSS" , "Material UI", "Formik", "Chat-Engine"],
+      [
+        "React",
+        "Context API",
+        "Axios",
+        "SCSS",
+        "Material UI",
+        "Formik",
+        "Chat-Engine",
+      ],
       ["Node.js", "Express.js", "MongoDB", "Mongoose", "MongoDB Atlas"],
     ],
     gitHubURL: "https://github.com/osmonoh/pawfect-frontend",
