@@ -20,19 +20,20 @@
     .hero-text {
       margin-bottom: 4.8rem;
 
-      @media (max-width: 630px) {
-        text-align: center;
-      }
+      // @media (max-width: 630px) {
+      //   text-align: center;
+      // }
 
       .heading {
         width: fit-content;
-        margin-bottom: 1.6rem;
+        // margin-bottom: 1.6rem;
+
         // color: $purple-darker;
         // animation: heading-animation 8s;
 
-        @media (max-width: 630px) {
-          margin: 0 auto;
-        }
+        // @media (max-width: 630px) {
+        //   margin: 0 auto;
+        // }
 
         @keyframes heading-animation {
           8% {
@@ -81,15 +82,25 @@
       }
 
       .sub-heading {
-        margin-bottom: 1.6rem;
+        // margin-bottom: 1.6rem;
+        margin-bottom: 0.8rem;
 
         // span {
         //   // color: $byzantine;
         // }
+
+        @media (max-width: 434px) {
+          font-size: 3.2rem;
+        }
       }
 
       .hero-paragraph {
+        margin-bottom: 1.4rem;
         font-size: 2rem;
+
+        @media (max-width: 434px) {
+          font-size: 1.8rem;
+        }
       }
     }
 

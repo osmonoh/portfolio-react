@@ -7,17 +7,21 @@ const Home = () => {
     <div className="hero">
       <div className="hero-content">
         <div className="hero-text">
-          <h1 className="heading">Hi</h1>
-          <h4 className="sub-heading">
-            My name is <span>Dusan Chmelko</span>
-          </h4>
+          <p className="heading">Hi, my name is</p>
+          <h1 className="sub-heading">Dusan Chmelko</h1>
 
           {/* rewrite!!!!!!!!!!!! */}
-          <p className="hero-paragraph">
-            I am a Berlin-based Web Developer graduating a one-year intensive
+          <h4 className="hero-paragraph">
+            {/* I am a Berlin-based Web Developer graduating a one-year intensive
             training in MERN-focused Full-stack Web Development. I am interested
             in projects allowing me to strengthen my knowledge and skills as
-            well as to learn new ones.
+            well as to learn new ones.  */}
+            I build awesome things for the web.
+          </h4>
+          <p>
+            I am a web developer based in Berlin and love creating cool stuff
+            that lives on the internet. At the moment I am open to a new
+            collaboration, so feel free to get in touch.
           </p>
         </div>
         {/* <div className="buttons-box">
