@@ -1,9 +1,9 @@
-import watchImg from "../images/watch-home-r.png";
-import decentImg from "../images/decent-home-r.png";
-import gameImg from "../images/bulls-r.png";
-import pawfectImg from "../images/pawfect-r.png";
-import sibaImg from "../images/siba-shop-r.png";
-import miniImg from "../images/mini-shop-r.png";
+import watchImg from "../images/watch-longer-r.png";
+import decentImg from "../images/decent-longer-r.png";
+import gameImg from "../images/bulls-longer-r.png";
+import pawfectImg from "../images/pawfect-longer-r.png";
+import sibaImg from "../images/siba-longer-r.png";
+import miniImg from "../images/mini-longer-r.png";
 
 const projects = [
   {
